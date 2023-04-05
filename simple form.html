@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <a href="index.html">Home</a>
+    <hr>
+
+    <form>
+        <div>
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="name" required>
+        </div>
+
+        <div>
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="Email">
+        </div>
+
+        <div>
+            <label for="district">District</label>
+            <select id="district" name="district">
+                <option value="colombo">Colombo</option>
+                <option value="gampaha" selected>Gampaha</option>
+                <option value="kaluthara">Kaluthara</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="submit" value="submit">
+        </div>
+        
+        <div>
+            <label for="comment">Comment</label>
+            <textarea id="comment" name="comment" rows="5" cols="30" placeholder="Comment"></textarea>
+        </div>
+
+    </form>
+
+
+</body>
+</html>
